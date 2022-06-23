@@ -30,6 +30,9 @@ syn region  luaCode        matchgroup=gringoKeyword start="#begin_lua" keepend e
 syn region  luaCode        matchgroup=gringoKeyword start="#script[ ]*([ ]*lua[ ]*)" keepend end="#end" contains=@Lua fold
 syn region  pythonCode     matchgroup=gringoKeyword start="#script[ ]*([ ]*python[ ]*)" keepend end="#end" contains=@Python fold
 
+" Add query for querying for probabilities.
+syn keyword gringoKeyword  #query
+
 " keywords
 syn keyword gringoKeyword  #show
 syn keyword gringoKeyword  #const
