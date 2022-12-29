@@ -91,6 +91,9 @@ syn match   gringoNumber   "\<[0123456789]*\>"
 syn match   gringoRule     ":-"
 syn match   gringoRule     ":\~"
 
+syn match   paspProb       "::"
+syn match   paspUnkp       "\?"
+
 syn sync maxlines=500
 
 command! -nargs=+ HiLink hi def link <args>
@@ -109,6 +112,9 @@ HiLink gringoVar          Identifier
 HiLink gringoError        Error
 HiLink gringoKey          Keyword
 
+HiLink paspProb           Special
+HiLink paspUnkp           Operator
+
 delcommand HiLink
 
-let b:current_syntax = "gringo"
+let b:current_syntax = "pasp/gringo"
