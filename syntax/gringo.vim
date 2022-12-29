@@ -92,7 +92,7 @@ syn match   gringoRule     ":-"
 syn match   gringoRule     ":\~"
 
 syn match   paspProb       "::"
-syn keyword paspUnkp       ?
+syn match   paspUnkp       "?"
 
 syn sync maxlines=500
 
