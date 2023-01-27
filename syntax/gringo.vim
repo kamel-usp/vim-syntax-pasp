@@ -29,6 +29,7 @@ syn match   gringoError    "#.*"
 syn region  luaCode        matchgroup=gringoKeyword start="#begin_lua" keepend end="#end_lua" contains=@Lua fold
 syn region  luaCode        matchgroup=gringoKeyword start="#script[ ]*([ ]*lua[ ]*)" keepend end="#end" contains=@Lua fold
 syn region  pythonCode     matchgroup=gringoKeyword start="#script[ ]*([ ]*python[ ]*)" keepend end="#end" contains=@Python fold
+syn region  torchCode      matchgroup=gringoKeyword start="#torch" keepend end="#end" contains=@Python fold
 
 " Add query for querying for probabilities.
 syn keyword gringoKeyword  #query
@@ -64,6 +65,11 @@ syn keyword gringoKeyword  #minimise
 syn keyword gringoKeyword  #maximise
 syn keyword gringoKeyword  #compute
 
+" Neural keywords for pasp
+syn keyword gringoKeyword  as
+syn keyword gringoKeyword  on
+syn keyword gringoKeyword  at
+
 " functions
 syn keyword gringoFunction #min
 syn keyword gringoFunction #max
@@ -93,6 +99,7 @@ syn match   gringoRule     ":\~"
 
 syn match   paspProb       "::"
 syn match   paspUnkp       "?"
+syn match   gringoRule     "\~"
 
 syn sync maxlines=500
 
