@@ -77,6 +77,8 @@ syn keyword gringoFunction #count
 syn keyword gringoFunction #sum
 syn match   gringoFunction "\(^\s*\)\@=&\s*_*[a-z]['a-zA-Z0-9_]*"
 syn match   gringoFunction "\([a-zA-Z0-9_'")]\_s*\)\@<!& *_*[a-z]['a-zA-Z0-9_]*"
+syn match   pyFunc         "@[a-zA-Z][a-zA-Z0-9_]*"
+
 " legacy functions
 syn keyword gringoFunction #times
 syn keyword gringoFunction #abs
@@ -119,6 +121,7 @@ HiLink gringoVar          Identifier
 HiLink gringoError        Error
 HiLink gringoKey          Keyword
 
+HiLink pyFunc             Function
 HiLink paspProb           Special
 HiLink paspUnkp           Operator
 
