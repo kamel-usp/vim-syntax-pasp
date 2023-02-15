@@ -101,6 +101,7 @@ syn match   gringoRule     ":\~"
 
 syn match   paspProb       "::"
 syn match   paspUnkp       "?"
+syn match   paspCons       "!"
 syn match   gringoRule     "\~"
 
 syn sync maxlines=500
@@ -124,6 +125,7 @@ HiLink gringoKey          Keyword
 HiLink pyFunc             Function
 HiLink paspProb           Special
 HiLink paspUnkp           Operator
+HiLink paspCons           Operator
 
 delcommand HiLink
 
