@@ -67,7 +67,7 @@ syn keyword gringoKeyword  #compute
 
 " Neural keywords for pasp
 syn keyword gringoKeyword  as
-syn keyword gringoKeyword  on
+syn keyword gringoKeyword  in
 syn keyword gringoKeyword  at
 
 " functions
