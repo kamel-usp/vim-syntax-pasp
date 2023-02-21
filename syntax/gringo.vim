@@ -69,6 +69,7 @@ syn keyword gringoKeyword  #compute
 syn keyword gringoKeyword  as
 syn keyword gringoKeyword  in
 syn keyword gringoKeyword  at
+syn keyword gringoKeyword  with
 
 " functions
 syn keyword gringoFunction #min
