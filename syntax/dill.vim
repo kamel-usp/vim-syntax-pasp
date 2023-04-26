@@ -1,7 +1,9 @@
 " Vim syntax file
-" Language:    Gringo
-" Maintainer:  Roland Kaminski
-" Last Change: 2020 Jun 29
+" Language:    Dill
+" Maintainer:  Renato Lui Geh
+" Last Change: 2023 Apr 26
+"
+" Original content from Roland Kaminski.
 
 if version < 600
    syntax clear
@@ -132,4 +134,4 @@ HiLink paspCons           Operator
 
 delcommand HiLink
 
-let b:current_syntax = "pasp/gringo"
+let b:current_syntax = "dill"

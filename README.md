@@ -1,8 +1,6 @@
-- copy into your .vim folder:
+# Vim syntax highlighting for DILL
 
-      ftdetect
-      indent
-      syntax
-      
-- or even better use one of the many plugin managers for vim
-- files ending with `.gringo` or `.lp` will be highlighted then
+More info on [DILL: Differentiable Logic programming Language](https://github.com/kamel-usp/dill).
+
+This is a modification of Roland Kaminski's [vim-syntax-clingo](https://github.com/rkaminsk/vim-syntax-clingo)
+for the purpose of syntax highlighting a probabilistic extension of clingo: DILL.

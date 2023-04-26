@@ -1,7 +1,9 @@
 " Vim syntax file
-" Language:    Gringo
-" Maintainer:  Roland Kaminski
-" Last Change: 2020 Jun 29
+" Language:    Dill
+" Maintainer:  Renato Lui Geh
+" Last Change: 2023 Apr 26
+"
+" Original contents from Roland Kaminski.
 "
 " This file includes code from the following files of the vim distribution:
 " - indent/lua.vim
