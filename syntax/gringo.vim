@@ -29,10 +29,12 @@ syn match   gringoError    "#.*"
 syn region  luaCode        matchgroup=gringoKeyword start="#begin_lua" keepend end="#end_lua" contains=@Lua fold
 syn region  luaCode        matchgroup=gringoKeyword start="#script[ ]*([ ]*lua[ ]*)" keepend end="#end" contains=@Lua fold
 syn region  pythonCode     matchgroup=gringoKeyword start="#script[ ]*([ ]*python[ ]*)" keepend end="#end" contains=@Python fold
-syn region  torchCode      matchgroup=gringoKeyword start="#torch" keepend end="#end" contains=@Python fold
+syn region  userCode       matchgroup=gringoKeyword start="#python" keepend end="#end" contains=@Python fold
 
 " Add query for querying for probabilities.
 syn keyword gringoKeyword  #query
+" Directive for learning.
+syn keyword gringoKeyword  #learn
 
 " keywords
 syn keyword gringoKeyword  #show
