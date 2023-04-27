@@ -37,6 +37,8 @@ syn region  userCode       matchgroup=gringoKeyword start="#python" keepend end=
 syn keyword gringoKeyword  #query
 " Directive for learning.
 syn keyword gringoKeyword  #learn
+" Directive for semantics.
+syn keyword gringoKeyword  #semantics
 
 " keywords
 syn keyword gringoKeyword  #show
