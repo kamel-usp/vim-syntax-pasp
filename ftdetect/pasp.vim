@@ -1,9 +1,9 @@
 " Vim syntax file
-" Language:    Dill
+" Language:    pasp
 " Maintainer:  Renato Lui Geh
 " Last Change: 2023 Apr 26
 "
 " Original contents from Roland Kaminski.
 
-au BufNewFile,BufRead *.plp set filetype=dill
+au BufNewFile,BufRead *.plp set filetype=pasp
 

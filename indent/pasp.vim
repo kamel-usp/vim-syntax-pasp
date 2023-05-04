@@ -1,5 +1,5 @@
 " Vim syntax file
-" Language:    Dill
+" Language:    pasp
 " Maintainer:  Renato Lui Geh
 " Last Change: 2023 Apr 26
 "
