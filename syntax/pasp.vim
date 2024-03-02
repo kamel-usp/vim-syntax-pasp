@@ -39,6 +39,10 @@ syn keyword gringoKeyword  #query
 syn keyword gringoKeyword  #learn
 " Directive for semantics.
 syn keyword gringoKeyword  #semantics
+" Directive for include.
+syn keyword gringoKeyword  #include
+" Directive for inference.
+syn keyword gringoKeyword  #inference
 
 " keywords
 syn keyword gringoKeyword  #show
