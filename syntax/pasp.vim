@@ -43,6 +43,8 @@ syn keyword gringoKeyword  #semantics
 syn keyword gringoKeyword  #include
 " Directive for inference.
 syn keyword gringoKeyword  #inference
+" Directive for MAP inference.
+syn keyword gringoKeyword  #map
 
 " keywords
 syn keyword gringoKeyword  #show
@@ -84,7 +86,8 @@ syn keyword gringoKeyword  with
 
 " functions
 syn keyword gringoFunction #min
-syn keyword gringoFunction #max
+"syn keyword gringoFunction #max
+syn keyword gringoKeyword #max
 syn keyword gringoFunction #count
 syn keyword gringoFunction #sum
 syn match   gringoFunction "\(^\s*\)\@=&\s*_*[a-z]['a-zA-Z0-9_]*"
